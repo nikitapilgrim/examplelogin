@@ -1,0 +1,26 @@
+{
+  "name": "parcel-styled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Hudson <dave@applification.net> (http://applification.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-use": "^15.1.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
